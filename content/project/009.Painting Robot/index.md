@@ -23,6 +23,10 @@ Initially, we used a region-growing based method for perception, projecting the 
 
 However, we discovered that this method was inadequate for handling tasks involving corners and curved surfaces. Therefore, we are now exploring a slicing-based method to address these challenges.
 
+## Slicing-Based Painting Trajectory Generation
+
+## Painting Reachability Map Based Trajectory Optimization
+
 ## Project Status
 
 This project is still in progress...
