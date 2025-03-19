@@ -28,6 +28,8 @@ However, we discovered that this method was inadequate for handling tasks involv
 ## Painting Reachability Map Based Trajectory Optimization
 ### Compact Reach Map
 ### Painting Reach Map
+### Optimization
+
 
 ## Project Status
 
