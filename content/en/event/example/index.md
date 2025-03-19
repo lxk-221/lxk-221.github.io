@@ -35,6 +35,7 @@ featured: false
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
   focal_point: Right
+  filename: /media/events/featured.jpg
 
 #links:
 #  - icon: twitter

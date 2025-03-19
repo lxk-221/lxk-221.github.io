@@ -26,7 +26,7 @@ tags:
 {{< youtube XEpZW4rSB-8 >}}
 
 ## 团队与小组
-![屏幕阅读器文本](figures/Team.jpg "团队")
-![屏幕阅读器文本](figures/Large_Team.jpg "小组")
+![团队照片](/media/projects/transport-robot/team.jpg "团队")
+![小组照片](/media/projects/transport-robot/large-team.jpg "小组")
 
 <!--more-->

@@ -59,6 +59,7 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
   focal_point: ''
   preview_only: false
+  filename: /media/publications/featured.jpg
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.

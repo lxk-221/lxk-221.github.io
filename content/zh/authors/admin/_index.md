@@ -122,6 +122,12 @@ awards:
     date: '2021-10-01'
     awarder: XJTU
     icon: edx
+
+# Display different avatar for dark mode
+avatar:
+  filename: /media/authors/avatar.jpg
+  alt: '头像'
+  
 ---
 
 ## 关于我

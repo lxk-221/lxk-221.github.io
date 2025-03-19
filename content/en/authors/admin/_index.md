@@ -58,7 +58,7 @@ interests:
 
 education:
   - area: MSc of Electronic and Information Engineering
-    institution: Xi’an Jiaotong University
+    institution: Xi'an Jiaotong University
     date_start: 2022-09-01
     date_end: 2025-07-01
 #    summary: |
@@ -69,7 +69,7 @@ education:
 #      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 #      - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - area: BSc of Automation
-    institution: Xi’an Jiaotong University
+    institution: Xi'an Jiaotong University
     date_start: 2018-09-01
     date_end: 2022-07-01
 
@@ -118,10 +118,16 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Xi ’an Jiaotong University second prize scholarship for Bachelor students
+  - title: Xi 'an Jiaotong University second prize scholarship for Bachelor students
     date: '2021-10-01'
     awarder: edX
     icon: edx
+
+# Display different avatar for dark mode
+avatar:
+  filename: /media/authors/avatar.jpg
+  alt: 'Avatar'
+  
 ---
 
 ## About Me

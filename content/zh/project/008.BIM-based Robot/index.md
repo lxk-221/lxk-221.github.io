@@ -20,31 +20,31 @@ tags:
 
 ## 流程
 此图显示了数据转换的流程。
-![屏幕阅读器文本](figures/Pipeline.png "数据转换流程")
+![数据转换流程](/media/projects/bim-robot/pipeline.png "数据转换流程")
 
 此图显示了obj格式的建筑物。
-![屏幕阅读器文本](figures/mesh.png "网格")
+![网格模型](/media/projects/bim-robot/mesh.png "网格")
 
 此图显示了八叉树形式的建筑物。
-![屏幕阅读器文本](figures/Octree.png "八叉树")
+![八叉树](/media/projects/bim-robot/octree.png "八叉树")
 
 ## 仿真
 此图显示了SLAM中的不同地图。
 
-![屏幕阅读器文本](figures/map.png "地图信息")
+![地图信息](/media/projects/bim-robot/map.png "地图信息")
 
 如图所示，尽管我们的机器人对环境是陌生的，但根据由2D理想地图通过分层代价地图结构生成的全局代价地图，它已经拥有了建筑物的全局信息。
 最大的框显示全局代价地图，第二大的框显示传感器的信息。最小的框显示局部代价地图。
 
-![屏幕阅读器文本](figures/Global.png "正确的全局路径")
+![全局路径](/media/projects/bim-robot/global-path.png "正确的全局路径")
 
 此图显示即使传感器在目标点周围没有任何信息，机器人也能生成到目标的正确路径。
 
-![屏幕阅读器文本](figures/Global.png "正确的局部路径")
+![局部路径](/media/projects/bim-robot/local-path.png "正确的局部路径")
 
 此图显示机器人可以根据局部代价地图改变其局部路径，以避免与障碍物发生碰撞。
 
-![屏幕阅读器文本](figures/Global.png "到达任意目标")
+![到达目标](/media/projects/bim-robot/arrive.png "到达任意目标")
 
 此图显示机器人可以到达建筑物特定楼层的任意目标点。
 

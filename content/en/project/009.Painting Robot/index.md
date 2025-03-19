@@ -10,7 +10,7 @@ tags:
 ---
 
 ## Overview
-This project is the topic of my Master’s thesis. 
+This project is the topic of my Master's thesis. 
 
 In construction spraying operations, spray robots offer significant advantages over manual labor. However, to meet the high precision required, spray robots must accurately perceive large-scale objects. Additionally, the demands of the spraying process require that spray robots incorporate new procedural constraints into their path planning for wall coverage painting. This research will focus on the following aspects. 
 1. Perception of large wall surfaces.
@@ -36,7 +36,7 @@ However, we discovered that this method was inadequate for handling tasks involv
 This project is still in progress...
 
 ## Experiments
-![Single Spray](figures/1.gif "Single Spray")
-![Double Spray](figures/2.gif "Double Spray")
-![Wide Range](figures/3.gif "Wide Range")
+![Single Spray](/media/projects/painting-robot/single-spray.gif "Single Spray")
+![Double Spray](/media/projects/painting-robot/double-spray.gif "Double Spray")
+![Wide Range](/media/projects/painting-robot/wide-range.gif "Wide Range")
 <!--more-->
