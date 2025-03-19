@@ -26,6 +26,8 @@ However, we discovered that this method was inadequate for handling tasks involv
 ## Slicing-Based Painting Trajectory Generation
 
 ## Painting Reachability Map Based Trajectory Optimization
+### Compact Reach Map
+### Painting Reach Map
 
 ## Project Status
 
