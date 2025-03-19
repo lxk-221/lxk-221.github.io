@@ -1,0 +1,8 @@
+content/project/Transport Robot/carry_ver2.mp4
+content/en/project/009.Painting Robot/figures/2.gif
+content/en/project/009.Painting Robot/figures/3.gif
+content/authors/admin/avatar_0.jpg
+content/en/project/006.Transport Robot/figures/Team.jpg
+content/en/project/010.Assembly Robot/featured.png
+content/en/project/006.Transport Robot/figures/Large_Team.jpg
+content/en/authors/admin/avatar.jpg 
