@@ -10,8 +10,7 @@ en:
   title: Personal Website
   params:
     description: Personal website of Xukun Li
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  menu: main
 
 # Uncomment the lines below to configure your website in a second language.
 zh:
@@ -21,8 +20,4 @@ zh:
   title: 个人主页
   params:
     description: 李昫坤的个人主页
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+  menu: main_zh
