@@ -36,7 +36,7 @@ featured: ../../../../media/projects/painting-robot/featured.png
 此项目仍在进行中...
 
 ## 实验
-![单喷涂](/static//media/projects/painting-robot/single-spray.gif "单喷涂")
-![双喷涂](/static//media/projects/painting-robot/double-spray.gif "双喷涂")
-![宽范围](/static//media/projects/painting-robot/wide-range.gif "宽范围")
+![单喷涂](/media/projects/painting-robot/single-spray.gif "单喷涂")
+![双喷涂](/media/projects/painting-robot/double-spray.gif "双喷涂")
+![宽范围](/media/projects/painting-robot/wide-range.gif "宽范围")
 <!--more-->

@@ -27,7 +27,7 @@ This video shows the whole process of the competition, as we can see, the robot 
 {{< youtube XEpZW4rSB-8 >}}
 
 ## Group and Team
-![screen reader text](figures/Team.jpg "Team")
-![screen reader text](figures/Large_Team.jpg "Group")
+![screen reader text](/media/projects/transport-robot/team.jpg "Team")
+![screen reader text](/media/projects/transport-robot/large-team.jpg "Group")
 
 <!--more-->
