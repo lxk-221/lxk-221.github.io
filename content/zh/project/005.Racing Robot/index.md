@@ -7,7 +7,7 @@ math: true
 tags:
   - 竞速机器人
   - 视觉导航
-featured: /media/projects/racing-robot/featured.png
+featured: featured.png
 ---
 
 ## 概述

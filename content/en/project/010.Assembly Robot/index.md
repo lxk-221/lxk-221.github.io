@@ -7,7 +7,7 @@ math: true
 tags:
   - Robotic Assembly
   - PMP
-featured: /media/projects/assembly-robot/featured.png
+featured: featured.png
 ---
 
 ## Abstrct

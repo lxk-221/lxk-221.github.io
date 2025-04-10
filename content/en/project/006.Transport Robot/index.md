@@ -7,7 +7,7 @@ math: true
 tags:
   - Transport Robot
   - Indoor Navigation
-featured: /media/projects/transport-robot/featured.png
+featured: featured.png
 ---
 
 ## Overview

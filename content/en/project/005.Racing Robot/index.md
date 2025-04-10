@@ -7,7 +7,7 @@ math: true
 tags:
   - Racing Robot
   - Visual Navigation
-featured: /media/projects/racing-robot/featured.png
+featured: featured.png
 ---
 
 ## Overview

@@ -7,7 +7,7 @@ math: true
 tags:
   - 机器人装配
   - PMP
-featured: /media/projects/assembly-robot/featured.png
+featured: featured.png
 ---
 
 ## 摘要
