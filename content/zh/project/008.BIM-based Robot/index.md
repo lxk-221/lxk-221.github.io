@@ -7,7 +7,7 @@ math: true
 tags:
   - BIM
   - 机器人导航
-featured: /media/projects/bim-robot/featured.png
+featured: ../../../../media/projects/bim-robot/featured.png
 ---
 
 ## 概述

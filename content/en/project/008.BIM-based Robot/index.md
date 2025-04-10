@@ -7,7 +7,7 @@ math: true
 tags:
   - BIM
   - Robot Navigation
-featured: /media/projects/bim-robot/featured.png
+featured: ../../../../media/projects/bim-robot/featured.png
 ---
 
 ## Overview

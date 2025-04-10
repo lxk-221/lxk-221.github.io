@@ -7,7 +7,7 @@ math: true
 tags:
   - 运输机器人
   - 室内导航
-featured: /media/projects/transport-robot/featured.jpg
+featured: ../../../../media/projects/transport-robot/featured.png
 ---
 
 ## 概述
