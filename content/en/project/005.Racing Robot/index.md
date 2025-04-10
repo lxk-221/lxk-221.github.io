@@ -1,11 +1,13 @@
 ---
 title: Racing Robot
-summary: This project aims to participate in a robot racing competition.
-date: 2019-10-01
+summary: A Robot for Racing Competition
+date: 2023-09-01
 type: docs
-math: false
+math: true
 tags:
   - Racing Robot
+  - Visual Navigation
+featured: /media/projects/racing-robot/featured.jpg
 ---
 
 ## Overview

@@ -1,13 +1,13 @@
 ---
 title: 基于BIM的机器人
-summary: 基于建筑信息模型的建筑场景移动机器人同步定位与地图构建
-date: 2022-06-01
+summary: 基于BIM的机器人导航
+date: 2023-09-01
 type: docs
 math: true
 tags:
   - BIM
-  - SLAM
-  - 建筑场景
+  - 机器人导航
+featured: /media/projects/bim-robot/featured.png
 ---
 
 ## 概述

@@ -1,12 +1,13 @@
 ---
 title: Transport Robot
-summary: This project aims to make a lightweight transport robot for a material-carrying competition.
-date: 2021-10-01
+summary: A Robot for Indoor Transport
+date: 2023-09-01
 type: docs
-math: false
+math: true
 tags:
   - Transport Robot
-  - Visual Serving
+  - Indoor Navigation
+featured: /media/projects/transport-robot/featured.jpg
 ---
 
 ## Overview

@@ -7,6 +7,7 @@ math: true
 tags:
   - 喷涂机器人
   - 建筑场景
+featured: /media/projects/painting-robot/featured.png
 ---
 
 ## 概述

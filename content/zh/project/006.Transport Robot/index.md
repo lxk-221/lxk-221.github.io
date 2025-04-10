@@ -1,12 +1,13 @@
 ---
 title: 运输机器人
-summary: 本项目旨在为物料搬运比赛制作一个轻量级运输机器人。
-date: 2021-10-01
+summary: 用于室内运输的机器人
+date: 2023-09-01
 type: docs
-math: false
+math: true
 tags:
   - 运输机器人
-  - 视觉伺服
+  - 室内导航
+featured: /media/projects/transport-robot/featured.jpg
 ---
 
 ## 概述

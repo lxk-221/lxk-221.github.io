@@ -1,13 +1,13 @@
 ---
 title: BIM-based Robot
-summary: Building Information Modeling-Based Simultaneous Localization and Mapping for Mobile Robot in Construction Scenes
-date: 2022-06-01
+summary: Robot Navigation Based on BIM
+date: 2023-09-01
 type: docs
 math: true
 tags:
   - BIM
-  - SLAM
-  - Construction scene
+  - Robot Navigation
+featured: /media/projects/bim-robot/featured.png
 ---
 
 ## Overview
@@ -16,7 +16,7 @@ This research uses Building Information Modeling(BIM) information in 2D Simultan
 The SLAM approach used in this project is based on Cartographer, and the method is tested in simulation in Gazebo with some random obstacles. All the work was done by myself. 
 
 ## Abstract
-Construction robots don’t have the global information of the building unless they are allowed to build a map by SLAM in advance, which is time-consuming and prevents construction robots from making global plan for the task. At the same time, Building Information Modeling (BIM) is a digitalization and standardization of the building information. With the existing of BIM, the building interior in construction scenes is actually semi-unknown instead of totally unknown. In this research, we proposed a pipeline to transform the BIM to a 2D ideal map. Then, we combined the 2D ideal map and SLAM together for robot navigation. By using this ideal 2D map as the initial global map of the robot, the robot can obtain global information about the interior of the building, thus saving the time and inhance the efficiency.
+Construction robots don't have the global information of the building unless they are allowed to build a map by SLAM in advance, which is time-consuming and prevents construction robots from making global plan for the task. At the same time, Building Information Modeling (BIM) is a digitalization and standardization of the building information. With the existing of BIM, the building interior in construction scenes is actually semi-unknown instead of totally unknown. In this research, we proposed a pipeline to transform the BIM to a 2D ideal map. Then, we combined the 2D ideal map and SLAM together for robot navigation. By using this ideal 2D map as the initial global map of the robot, the robot can obtain global information about the interior of the building, thus saving the time and inhance the efficiency.
 
 ## Piepline
 This figure shows the pipline of data transformation.
@@ -38,7 +38,7 @@ The largest box shows the global costmap, and the second large box shows the inf
 
 ![screen reader text](figures/Global.png "Right Global Path")
 
-This figure shows that the robot can generate a right path to the target although the sensor doesn’t have any information around the target point.
+This figure shows that the robot can generate a right path to the target although the sensor doesn't have any information around the target point.
 
 ![screen reader text](figures/Global.png "Right Local Path")
 

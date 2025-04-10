@@ -1,11 +1,13 @@
 ---
 title: 竞速机器人
-summary: 本项目旨在参加机器人竞速比赛。
-date: 2019-10-01
+summary: 用于竞速比赛的机器人
+date: 2023-09-01
 type: docs
-math: false
+math: true
 tags:
   - 竞速机器人
+  - 视觉导航
+featured: /media/projects/racing-robot/featured.jpg
 ---
 
 ## 概述

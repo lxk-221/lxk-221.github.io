@@ -1,12 +1,13 @@
 ---
 title: Painting Robot
-summary: Painting Robot for Interior Finishing
+summary: A Robot for Interior Painting
 date: 2023-09-01
 type: docs
 math: true
 tags:
   - Painting Robot
-  - Construction scene
+  - Construction Scene
+featured: /media/projects/painting-robot/featured.png
 ---
 
 ## Overview
