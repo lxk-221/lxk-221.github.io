@@ -7,7 +7,7 @@ math: true
 tags:
   - BIM
   - 机器人导航
-featured: ../../../../media/projects/bim-robot/featured.png
+featured: /media/projects/bim-robot/featured.png
 ---
 
 ## 概述
@@ -19,32 +19,32 @@ featured: ../../../../media/projects/bim-robot/featured.png
 建筑机器人除非事先通过SLAM构建地图（这是耗时的，且阻碍了建筑机器人制定全局任务计划），否则无法获得建筑物的全局信息。同时，建筑信息模型（BIM）是建筑信息的数字化和标准化。有了BIM，建筑场景中的建筑内部实际上是半未知的，而不是完全未知的。在本研究中，我们提出了一个将BIM转换为2D理想地图的流程。然后，我们将2D理想地图和SLAM结合用于机器人导航。通过使用这个理想的2D地图作为机器人的初始全局地图，机器人可以获得建筑物内部的全局信息，从而节省时间并提高效率。
 
 ## 流程
-此图显示了数据转换的流程。
-![数据转换流程](/media/projects/bim-robot/pipeline.png "数据转换流程")
+这个图展示了数据转换的流程。
+![数据转换流程](/media/projects/bim-robot/Pipeline.png "数据转换流程")
 
-此图显示了obj格式的建筑物。
+这个图展示了以obj形式的建筑物。
 ![网格模型](/media/projects/bim-robot/mesh.png "网格")
 
-此图显示了八叉树形式的建筑物。
-![八叉树](/media/projects/bim-robot/octree.png "八叉树")
+这个图展示了以八叉树形式的建筑物。
+![八叉树](/media/projects/bim-robot/Octree.png "八叉树")
 
 ## 仿真
-此图显示了SLAM中的不同地图。
+这个图展示了SLAM中的不同地图。
 
 ![地图信息](/media/projects/bim-robot/map.png "地图信息")
 
-如图所示，尽管我们的机器人对环境是陌生的，但根据由2D理想地图通过分层代价地图结构生成的全局代价地图，它已经拥有了建筑物的全局信息。
-最大的框显示全局代价地图，第二大的框显示传感器的信息。最小的框显示局部代价地图。
+如图所示，虽然我们的机器人对环境是全新的，但它通过全局代价地图（由分层代价地图结构从2D理想地图生成）获得了有关建筑物的全局信息。
+最大的框显示全局代价地图，第二大的框显示来自传感器的信息。最小的框显示局部代价地图。
 
-![全局路径](/media/projects/bim-robot/global-path.png "正确的全局路径")
+![全局路径](/media/projects/bim-robot/Global.png "正确的全局路径")
 
-此图显示即使传感器在目标点周围没有任何信息，机器人也能生成到目标的正确路径。
+此图显示，即使传感器在目标点周围没有任何信息，机器人也能生成到目标的正确路径。
 
-![局部路径](/media/projects/bim-robot/local-path.png "正确的局部路径")
+![局部路径](/media/projects/bim-robot/Local.png "正确的局部路径")
 
-此图显示机器人可以根据局部代价地图改变其局部路径，以避免与障碍物发生碰撞。
+此图显示，机器人可以根据局部代价地图改变其局部路径，以避免与障碍物发生碰撞。
 
-![到达目标](/media/projects/bim-robot/arrive.png "到达任意目标")
+![到达目标](/media/projects/bim-robot/Target.png "到达任意目标")
 
 此图显示机器人可以到达建筑物特定楼层的任意目标点。
 

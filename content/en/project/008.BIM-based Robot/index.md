@@ -7,7 +7,7 @@ math: true
 tags:
   - BIM
   - Robot Navigation
-featured: ../../../../media/projects/bim-robot/featured.png
+featured: /media/projects/bim-robot/featured.png
 ---
 
 ## Overview
@@ -20,13 +20,13 @@ Construction robots don't have the global information of the building unless the
 
 ## Piepline
 This figure shows the pipline of data transformation.
-![screen reader text](/media/projects/bim-robot/pipeline.png "Data Transform Pipeline")
+![screen reader text](/media/projects/bim-robot/Pipeline.png "Data Transform Pipeline")
 
 This figure shows the building in the form of obj.
 ![screen reader text](/media/projects/bim-robot/mesh.png "Mesh")
 
 This figure shows the building in the form of Octree.
-![screen reader text](/media/projects/bim-robot/octree.png "Octree")
+![screen reader text](/media/projects/bim-robot/Octree.png "Octree")
 
 ## Simulation
 This figure shows different map in SLAM.
@@ -36,15 +36,15 @@ This figure shows different map in SLAM.
 As shown in this figure, although our robot was new in the environment, it had the global information about the building according to the global costmap, which is generated from the 2D ideal map by the layered costmap structure.
 The largest box shows the global costmap, and the second large box shows the information from the sensor. And the smallest box shows the local costmap.
 
-![screen reader text](/media/projects/bim-robot/global-path.png "Right Global Path")
+![screen reader text](/media/projects/bim-robot/Global.png "Right Global Path")
 
 This figure shows that the robot can generate a right path to the target although the sensor doesn't have any information around the target point.
 
-![screen reader text](/media/projects/bim-robot/local-path.png "Right Local Path")
+![screen reader text](/media/projects/bim-robot/Local.png "Right Local Path")
 
 This figureshows that the robot can change its local path according to the local cost map, to avoid the crush between itself and the obstacles. 
 
-![screen reader text](/media/projects/bim-robot/arrive.png "Arrive Any Target")
+![screen reader text](/media/projects/bim-robot/Target.png "Arrive Any Target")
 
 This figure shows that the robot can arrive any target point on this specific floor in the building.
 

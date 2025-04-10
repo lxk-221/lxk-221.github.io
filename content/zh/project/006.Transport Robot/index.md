@@ -7,7 +7,7 @@ math: true
 tags:
   - 运输机器人
   - 室内导航
-featured: ../../../../media/projects/transport-robot/featured.png
+featured: /media/projects/transport-robot/featured.png
 ---
 
 ## 概述
@@ -27,7 +27,7 @@ featured: ../../../../media/projects/transport-robot/featured.png
 {{< youtube XEpZW4rSB-8 >}}
 
 ## 团队与小组
-![团队照片](/media/projects/transport-robot/team.jpg "团队")
-![小组照片](/media/projects/transport-robot/large-team.jpg "小组")
+![团队照片](/media/projects/transport-robot/Team.jpg "团队")
+![小组照片](/media/projects/transport-robot/Large_Team.jpg "小组")
 
 <!--more-->

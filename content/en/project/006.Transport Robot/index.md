@@ -7,7 +7,7 @@ math: true
 tags:
   - Transport Robot
   - Indoor Navigation
-featured: ../../../../media/projects/transport-robot/featured.png
+featured: /media/projects/transport-robot/featured.png
 ---
 
 ## Overview
@@ -27,7 +27,7 @@ This video shows the whole process of the competition, as we can see, the robot 
 {{< youtube XEpZW4rSB-8 >}}
 
 ## Group and Team
-![screen reader text](/media/projects/transport-robot/team.jpg "Team")
-![screen reader text](/media/projects/transport-robot/large-team.jpg "Group")
+![screen reader text](/media/projects/transport-robot/Team.jpg "Team")
+![screen reader text](/media/projects/transport-robot/Large_Team.jpg "Group")
 
 <!--more-->

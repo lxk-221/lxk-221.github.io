@@ -7,7 +7,7 @@ math: true
 tags:
   - Painting Robot
   - Construction Scene
-featured: ../../../../media/projects/painting-robot/featured.png
+featured: /media/projects/painting-robot/featured.png
 ---
 
 ## Overview
