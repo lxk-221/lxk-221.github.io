@@ -1,0 +1,28 @@
+{{/* Publication link buttons */}}
+{{ $links := slice }}
+
+{{ with .Params.url_pdf }}
+{{ $links = $links | append (dict "icon" "fas fa-file-pdf" "text" "PDF" "url" .) }}
+{{ end }}
+
+{{ with .Params.url_arxiv }}
+{{ $links = $links | append (dict "icon" "ai ai-arxiv" "text" "arXiv" "url" .) }}
+{{ end }}
+
+{{ with .Params.url_code }}
+{{ $links = $links | append (dict "icon" "fab fa-github" "text" "Code" "url" .) }}
+{{ end }}
+
+{{ with .Params.url_dataset }}
+{{ $links = $links | append (dict "icon" "fas fa-database" "text" "Data" "url" .) }}
+{{ end }}
+
+{{ with .Params.url_project }}
+{{ $links = $links | append (dict "icon" "fas fa-home" "text" "Project" "url" .) }}
+{{ end }}
+
+{{ range $links }}
+<a href="{{ .url }}" target="_blank" rel="noopener"
+   class="inline-flex items-center px-3 py-1 mr-2 mb-2 text-sm font-medium rounded-full bg-primary-100 text-primary-800 hover:bg-primary-200 dark:bg-primary-900 dark:text-primary-100 dark:hover:bg-primary-800 transition-colors">
+  <i class="{{ .icon }} mr-1"></i>{{ .text }}</a>
+{{ end }}

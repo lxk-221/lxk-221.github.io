@@ -1,0 +1,106 @@
+{{/* Custom publication list view with link buttons */}}
+{{ $page := . }}
+{{ $items := .items }}
+{{ $content := .content }}
+
+<div class="container">
+  {{ range $items }}
+  {{ $pub := . }}
+  <div class="pub-item mb-8 pb-8 border-b border-gray-200 dark:border-gray-700 last:border-0">
+    <div class="flex flex-col md:flex-row gap-6">
+
+      {{/* Featured Image - A4 Portrait */}}
+      {{ if .Params.featured }}
+      <div class="flex-shrink-0">
+        <a href="{{ .RelPermalink }}">
+          {{ $img := .Resources.GetMatch .Params.featured }}
+          {{ if $img }}
+          {{ $imgA4 := $img.Fit "180x255" }}
+          <img src="{{ $imgA4.RelPermalink }}" alt="{{ .Title }}"
+               class="w-[180px] h-[255px] object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          {{ else if fileExists (path.Join "static" (printf "publication/%s/featured.png" .File.ContentBaseName)) }}
+          <img src="{{ printf "/publication/%s/featured.png" .File.ContentBaseName }}"
+               class="w-[180px] h-[255px] object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow"
+               alt="{{ .Title }}">
+          {{ end }}
+        </a>
+      </div>
+      {{ end }}
+
+      {{/* Content */}}
+      <div class="flex-1">
+        {{/* Title */}}
+        <h3 class="text-xl font-semibold mb-2">
+          <a href="{{ .RelPermalink }}" class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+            {{ .Title }}
+          </a>
+        </h3>
+
+        {{/* Authors */}}
+        {{ with .Params.authors }}
+        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+          {{ $authors := . }}
+          {{ $notes := $pub.Params.author_notes }}
+          {{ range $i, $author := $authors }}
+          {{ if $i }}, {{ end }}
+          {{ if and (eq $author "Xukun Li") (eq $i 0) }}<strong>{{ end }}
+          {{ $author }}
+          {{ if and (eq $author "Xukun Li") (eq $i 0) }}</strong>{{ end }}
+          {{ with index $notes $i }}
+          {{ if eq . "Equal contribution" }}*{{ end }}
+          {{ if eq . "Corresponding author" }}†{{ end }}
+          {{ end }}
+          {{ end }}
+        </p>
+        {{ end }}
+
+        {{/* Publication Venue */}}
+        {{ with .Params.publication }}
+        <p class="text-sm text-gray-500 dark:text-gray-500 mb-3">
+          <em>{{ . }}</em>, {{ $pub.Date.Format "2006" }}
+        </p>
+        {{ end }}
+
+        {{/* Summary */}}
+        {{ with .Params.summary }}
+        <p class="text-sm text-gray-700 dark:text-gray-300 mb-4">{{ . }}</p>
+        {{ end }}
+
+        {{/* Link Buttons */}}
+        <div class="flex flex-wrap">
+          {{ with .Params.url_pdf }}
+          <a href="{{ . }}" target="_blank" rel="noopener"
+             class="inline-flex items-center px-3 py-1 mr-2 mb-2 text-sm font-medium rounded-full bg-red-100 text-red-800 hover:bg-red-200 dark:bg-red-900 dark:text-red-100 dark:hover:bg-red-800 transition-colors">
+            <i class="fas fa-file-pdf mr-1"></i>PDF</a>
+          {{ end }}
+
+          {{ with .Params.url_arxiv }}
+          <a href="{{ . }}" target="_blank" rel="noopener"
+             class="inline-flex items-center px-3 py-1 mr-2 mb-2 text-sm font-medium rounded-full bg-orange-100 text-orange-800 hover:bg-orange-200 dark:bg-orange-900 dark:text-orange-100 dark:hover:bg-orange-800 transition-colors">
+            <i class="ai ai-arxiv mr-1"></i>arXiv</a>
+          {{ end }}
+
+          {{ with .Params.url_code }}
+          <a href="{{ . }}" target="_blank" rel="noopener"
+             class="inline-flex items-center px-3 py-1 mr-2 mb-2 text-sm font-medium rounded-full bg-gray-100 text-gray-800 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600 transition-colors">
+            <i class="fab fa-github mr-1"></i>Code</a>
+          {{ end }}
+
+          {{ with .Params.url_dataset }}
+          <a href="{{ . }}" target="_blank" rel="noopener"
+             class="inline-flex items-center px-3 py-1 mr-2 mb-2 text-sm font-medium rounded-full bg-blue-100 text-blue-800 hover:bg-blue-200 dark:bg-blue-900 dark:text-blue-100 dark:hover:bg-blue-800 transition-colors">
+            <i class="fas fa-database mr-1"></i>Data</a>
+          {{ end }}
+
+          {{ with .Params.url_project }}
+          <a href="{{ . }}" target="_blank" rel="noopener"
+             class="inline-flex items-center px-3 py-1 mr-2 mb-2 text-sm font-medium rounded-full bg-green-100 text-green-800 hover:bg-green-200 dark:bg-green-900 dark:text-green-100 dark:hover:bg-green-800 transition-colors">
+            <i class="fas fa-home mr-1"></i>Project</a>
+          {{ end }}
+        </div>
+
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</div>
