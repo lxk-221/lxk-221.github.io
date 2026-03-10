@@ -2,6 +2,11 @@ figcaption {
     text-align: center;
   }
 
+/* Selected Publications block: 80% of page width */
+#papers .max-w-prose {
+  max-width: 80vw !important;
+}
+
 /* Publication list view: A4 portrait image ratio */
 .md\:flex-shrink-0 {
   width: 180px !important;

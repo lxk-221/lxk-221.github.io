@@ -49,7 +49,7 @@ sections:
           <div class="flex flex-col md:flex-row gap-4">
             <div class="flex-shrink-0">
               <a href="publication/deco/">
-                <img src="publication/deco/featured.png" alt="DECO" class="w-28 rounded shadow-md hover:shadow-lg transition-shadow" style="aspect-ratio: 1/1.414;">
+                <img src="publication/deco/featured.png" alt="DECO" class="w-64 rounded shadow-md hover:shadow-lg transition-shadow" style="aspect-ratio: 1/1.414;">
               </a>
             </div>
             <div class="flex-1">
@@ -83,7 +83,7 @@ sections:
           <div class="flex flex-col md:flex-row gap-4">
             <div class="flex-shrink-0">
               <a href="publication/mosaic/">
-                <img src="publication/mosaic/featured.png" alt="MOSAIC" class="w-28 rounded shadow-md hover:shadow-lg transition-shadow" style="aspect-ratio: 1/1.414;">
+                <img src="publication/mosaic/featured.png" alt="MOSAIC" class="w-64 rounded shadow-md hover:shadow-lg transition-shadow" style="aspect-ratio: 1/1.414;">
               </a>
             </div>
             <div class="flex-1">
