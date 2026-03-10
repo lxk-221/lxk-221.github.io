@@ -49,7 +49,7 @@ sections:
           <div class="flex flex-col md:flex-row gap-4">
             <div class="flex-shrink-0">
               <a href="publication/deco/">
-                <img src="publication/deco/featured_hu_8d9e641417d1575a.webp" alt="DECO" class="w-32 h-45 object-cover rounded shadow-md hover:shadow-lg transition-shadow" style="aspect-ratio: 1/1.414;">
+                <img src="publication/deco/featured.png" alt="DECO" class="w-36 object-cover rounded shadow-md hover:shadow-lg transition-shadow" style="aspect-ratio: 1/1.414;">
               </a>
             </div>
             <div class="flex-1">
@@ -68,12 +68,12 @@ sections:
                 A decoupled multimodal diffusion transformer for bimanual manipulation with a lightweight tactile adapter.
               </p>
               <div class="flex flex-wrap gap-2">
-                <a href="https://arxiv.org/pdf/2602.05513" target="_blank" rel="noopener" class="inline-flex items-center px-3 py-1 text-sm font-medium rounded-full bg-red-100 text-red-800 hover:bg-red-200 dark:bg-red-900 dark:text-red-100 dark:hover:bg-red-800 transition-colors no-underline">
-                  <i class="fas fa-file-pdf mr-1"></i>PDF</a>
-                <a href="https://arxiv.org/abs/2602.05513" target="_blank" rel="noopener" class="inline-flex items-center px-3 py-1 text-sm font-medium rounded-full bg-orange-100 text-orange-800 hover:bg-orange-200 dark:bg-orange-900 dark:text-orange-100 dark:hover:bg-orange-800 transition-colors no-underline">
-                  <i class="ai ai-arxiv mr-1"></i>arXiv</a>
-                <a href="https://baai-humanoid.github.io/DECO-webpage/" target="_blank" rel="noopener" class="inline-flex items-center px-3 py-1 text-sm font-medium rounded-full bg-green-100 text-green-800 hover:bg-green-200 dark:bg-green-900 dark:text-green-100 dark:hover:bg-green-800 transition-colors no-underline">
-                  <i class="fas fa-globe mr-1"></i>Project</a>
+                <a href="https://arxiv.org/pdf/2602.05513" target="_blank" rel="noopener" class="inline-flex items-center px-3 py-1.5 text-sm font-semibold rounded-full border-2 border-red-500 text-red-600 hover:bg-red-500 hover:text-white dark:border-red-400 dark:text-red-400 dark:hover:bg-red-500 dark:hover:text-white transition-colors no-underline">
+                  <i class="fas fa-file-pdf mr-1.5"></i>PDF</a>
+                <a href="https://arxiv.org/abs/2602.05513" target="_blank" rel="noopener" class="inline-flex items-center px-3 py-1.5 text-sm font-semibold rounded-full border-2 border-orange-500 text-orange-600 hover:bg-orange-500 hover:text-white dark:border-orange-400 dark:text-orange-400 dark:hover:bg-orange-500 dark:hover:text-white transition-colors no-underline">
+                  <i class="ai ai-arxiv mr-1.5"></i>arXiv</a>
+                <a href="https://baai-humanoid.github.io/DECO-webpage/" target="_blank" rel="noopener" class="inline-flex items-center px-3 py-1.5 text-sm font-semibold rounded-full border-2 border-green-500 text-green-600 hover:bg-green-500 hover:text-white dark:border-green-400 dark:text-green-400 dark:hover:bg-green-500 dark:hover:text-white transition-colors no-underline">
+                  <i class="fas fa-globe mr-1.5"></i>Project</a>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@ sections:
           <div class="flex flex-col md:flex-row gap-4">
             <div class="flex-shrink-0">
               <a href="publication/mosaic/">
-                <img src="publication/mosaic/featured_hu_37c7f75faa4f5879.webp" alt="MOSAIC" class="w-32 h-45 object-cover rounded shadow-md hover:shadow-lg transition-shadow" style="aspect-ratio: 1/1.414;">
+                <img src="publication/mosaic/featured.png" alt="MOSAIC" class="w-36 object-cover rounded shadow-md hover:shadow-lg transition-shadow" style="aspect-ratio: 1/1.414;">
               </a>
             </div>
             <div class="flex-1">
@@ -102,12 +102,12 @@ sections:
                 An open-source, full-stack system for humanoid motion tracking and whole-body teleoperation with rapid residual adaptation.
               </p>
               <div class="flex flex-wrap gap-2">
-                <a href="https://arxiv.org/pdf/2602.08594" target="_blank" rel="noopener" class="inline-flex items-center px-3 py-1 text-sm font-medium rounded-full bg-red-100 text-red-800 hover:bg-red-200 dark:bg-red-900 dark:text-red-100 dark:hover:bg-red-800 transition-colors no-underline">
-                  <i class="fas fa-file-pdf mr-1"></i>PDF</a>
-                <a href="https://arxiv.org/abs/2602.08594" target="_blank" rel="noopener" class="inline-flex items-center px-3 py-1 text-sm font-medium rounded-full bg-orange-100 text-orange-800 hover:bg-orange-200 dark:bg-orange-900 dark:text-orange-100 dark:hover:bg-orange-800 transition-colors no-underline">
-                  <i class="ai ai-arxiv mr-1"></i>arXiv</a>
-                <a href="https://baai-humanoid.github.io/MOSAIC/" target="_blank" rel="noopener" class="inline-flex items-center px-3 py-1 text-sm font-medium rounded-full bg-green-100 text-green-800 hover:bg-green-200 dark:bg-green-900 dark:text-green-100 dark:hover:bg-green-800 transition-colors no-underline">
-                  <i class="fas fa-globe mr-1"></i>Project</a>
+                <a href="https://arxiv.org/pdf/2602.08594" target="_blank" rel="noopener" class="inline-flex items-center px-3 py-1.5 text-sm font-semibold rounded-full border-2 border-red-500 text-red-600 hover:bg-red-500 hover:text-white dark:border-red-400 dark:text-red-400 dark:hover:bg-red-500 dark:hover:text-white transition-colors no-underline">
+                  <i class="fas fa-file-pdf mr-1.5"></i>PDF</a>
+                <a href="https://arxiv.org/abs/2602.08594" target="_blank" rel="noopener" class="inline-flex items-center px-3 py-1.5 text-sm font-semibold rounded-full border-2 border-orange-500 text-orange-600 hover:bg-orange-500 hover:text-white dark:border-orange-400 dark:text-orange-400 dark:hover:bg-orange-500 dark:hover:text-white transition-colors no-underline">
+                  <i class="ai ai-arxiv mr-1.5"></i>arXiv</a>
+                <a href="https://baai-humanoid.github.io/MOSAIC/" target="_blank" rel="noopener" class="inline-flex items-center px-3 py-1.5 text-sm font-semibold rounded-full border-2 border-green-500 text-green-600 hover:bg-green-500 hover:text-white dark:border-green-400 dark:text-green-400 dark:hover:bg-green-500 dark:hover:text-white transition-colors no-underline">
+                  <i class="fas fa-globe mr-1.5"></i>Project</a>
               </div>
             </div>
           </div>
