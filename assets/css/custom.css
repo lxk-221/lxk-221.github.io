@@ -1,3 +1,16 @@
 figcaption {
     text-align: center;
   }
+
+/* Publication list view: A4 portrait image ratio */
+.md\:flex-shrink-0 {
+  width: 180px !important;
+  height: auto !important;
+}
+
+.md\:flex-shrink-0 img.h-48,
+.md\:flex-shrink-0 img.md\:w-48 {
+  width: 180px !important;
+  height: 255px !important;  /* A4 ratio: 180 * 1.414 ≈ 255 */
+  object-fit: cover;
+}

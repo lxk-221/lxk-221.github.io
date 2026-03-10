@@ -51,6 +51,7 @@ tags:
 featured: true
 
 url_pdf: https://arxiv.org/pdf/2602.05513
+url_arxiv: https://arxiv.org/abs/2602.05513
 url_code: ""
 url_dataset: ""
 url_project: https://baai-humanoid.github.io/DECO-webpage/

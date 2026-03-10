@@ -42,12 +42,13 @@ sections:
   - block: collection
     id: papers
     content:
-      title: 📝 Selected Publications
+      title: Selected Publications
+      subtitle: '(*: Equal contribution, †: Corresponding author)'
       filters:
         folders:
           - publication
         featured_only: true
     design:
-      view: article-grid
-      columns: 2
+      view: list
+      columns: 1
 ---

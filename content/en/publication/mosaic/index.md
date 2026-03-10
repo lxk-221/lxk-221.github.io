@@ -49,6 +49,7 @@ tags:
 featured: true
 
 url_pdf: https://arxiv.org/pdf/2602.08594
+url_arxiv: https://arxiv.org/abs/2602.08594
 url_code: ""
 url_dataset: ""
 url_project: https://baai-humanoid.github.io/MOSAIC/

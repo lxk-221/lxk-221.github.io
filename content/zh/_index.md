@@ -42,12 +42,13 @@ sections:
   - block: collection
     id: papers
     content:
-      title: 📝 代表性论文
+      title: 论文
+      subtitle: '(*: 共同一作, †: 通讯作者)'
       filters:
         folders:
           - publication
         featured_only: true
     design:
-      view: article-grid
-      columns: 2
+      view: list
+      columns: 1
 ---
