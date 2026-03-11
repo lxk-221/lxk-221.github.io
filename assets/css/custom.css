@@ -2,10 +2,22 @@ figcaption {
     text-align: center;
   }
 
-/* Selected Publications block: 80% of page width */
+/* News and Selected Publications blocks: 80% of page width */
+#section-markdown .max-w-prose,
 #papers .max-w-prose {
   max-width: 80vw !important;
 }
+
+/* News block: adjust text font size (default prose uses ~1.125rem, use 1rem for smaller) */
+#section-markdown .prose {
+  font-size: 1rem;
+}
+
+/* Publication link buttons: force colors (prose-invert overrides Tailwind in dark mode) */
+#papers .pub-item .border-green-500 { color: #4ade80 !important; border-color: #4ade80 !important; }
+#papers .pub-item .border-orange-500 { color: #fb923c !important; border-color: #fb923c !important; }
+#papers .pub-item .border-violet-500 { color: #a78bfa !important; border-color: #a78bfa !important; }
+#papers .pub-item .border-blue-500 { color: #60a5fa !important; border-color: #60a5fa !important; }
 
 /* Publication list view: A4 portrait image ratio */
 .md\:flex-shrink-0 {
