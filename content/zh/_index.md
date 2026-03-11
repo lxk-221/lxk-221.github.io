@@ -35,8 +35,8 @@ sections:
       title: '📰 动态'
       subtitle: ''
       text: |-
-        - **2026年2月**: 在 arXiv 发布 **DECO** - 面向双手灵巧操作的解耦多模态扩散Transformer，支持触觉感知。**Xukun Li**, Yu Sun, Lei Zhang, et al. [arXiv:2602.05513](https://arxiv.org/abs/2602.05513)
-        - **2026年2月**: 在 arXiv 发布 **MOSAIC** - 人形机器人运动追踪与遥操作的全栈系统。 Bo-Sheng Huang*, Yibo Peng*, **Xukun Li***, et al. (*Equal contribution) [arXiv:2602.08594](https://arxiv.org/abs/2602.08594)
+        - **2026年2月**: 在 arXiv 更新 **DECO**. **Xukun Li***, Yu Sun*, Lei Zhang, Bosheng Huang, Yibo Peng, Yuan Meng, Haojun Jiang, Shaoxuan Xie, Guocai Yao, Alois Knoll, Zhenshan Bing<sup>†</sup>, Xinlong Wang<sup>†</sup>, Zhenguo Sun. [arXiv:2602.05513](https://arxiv.org/abs/2602.05513)
+        - **2026年2月**: 在 arXiv 更新 **MOSAIC**.  Zhenguo Sun*, Bo-Sheng Huang*, Yibo Peng*, <strong>Xukun Li*</strong>, Jingyu Ma, Yu Sun, Zhe Li, Haojun Jiang, Biao Gao, Zhenshan Bing<sup>†</sup>, Xinlong Wang<sup>†</sup>, Alois Knoll. [arXiv:2602.08594](https://arxiv.org/abs/2602.08594)
     design:
       columns: '1'
   - block: markdown

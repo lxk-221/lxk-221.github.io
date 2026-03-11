@@ -35,8 +35,8 @@ sections:
       title: '📰 News'
       subtitle: ''
       text: |-
-        - **Feb 2026**: Released **DECO** on arXiv - a decoupled multimodal diffusion transformer for bimanual dexterous manipulation with tactile sensing. **Xukun Li**, Yu Sun, Lei Zhang, et al. [arXiv:2602.05513](https://arxiv.org/abs/2602.05513)
-        - **Feb 2026**: Released **MOSAIC** on arXiv - a full-stack system for humanoid motion tracking and teleoperation. Bo-Sheng Huang*, Yibo Peng*, **Xukun Li***, et al. (*Equal contribution) [arXiv:2602.08594](https://arxiv.org/abs/2602.08594)
+        - **Feb 2026**: Preprint **DECO** on arXiv. **Xukun Li***, Yu Sun*, Lei Zhang, Bosheng Huang, Yibo Peng, Yuan Meng, Haojun Jiang, Shaoxuan Xie, Guocai Yao, Alois Knoll, Zhenshan Bing<sup>†</sup>, Xinlong Wang<sup>†</sup>, Zhenguo Sun. [arXiv:2602.05513](https://arxiv.org/abs/2602.05513)
+        - **Feb 2026**: Preprint **MOSAIC** on arXiv. Zhenguo Sun*, Bo-Sheng Huang*, Yibo Peng*, <strong>Xukun Li*</strong>, Jingyu Ma, Yu Sun, Zhe Li, Haojun Jiang, Biao Gao, Zhenshan Bing<sup>†</sup>, Xinlong Wang<sup>†</sup>, Alois Knoll. (*Equal contribution) [arXiv:2602.08594](https://arxiv.org/abs/2602.08594)
     design:
       columns: '1'
   - block: markdown
